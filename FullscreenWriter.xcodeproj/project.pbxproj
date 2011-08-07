@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		289EA91913EECA6700599F19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289EA91813EECA6700599F19 /* Cocoa.framework */; };
+		289EA92313EECA6700599F19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 289EA92113EECA6700599F19 /* InfoPlist.strings */; };
+		289EA92513EECA6700599F19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 289EA92413EECA6700599F19 /* main.m */; };
+		289EA92913EECA6700599F19 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 289EA92713EECA6700599F19 /* Credits.rtf */; };
+		289EA92C13EECA6700599F19 /* FullscreenWriterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 289EA92B13EECA6700599F19 /* FullscreenWriterAppDelegate.m */; };
+		289EA92F13EECA6800599F19 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 289EA92D13EECA6800599F19 /* MainMenu.xib */; };
+		289EA93713EECA8100599F19 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289EA93613EECA8100599F19 /* AppController.m */; };
+		289EA93913EEDBAE00599F19 /* NoiseBg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 289EA93813EEDBAE00599F19 /* NoiseBg1.png */; };
+		289EA93B13EEDEDB00599F19 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 289EA93A13EEDEDB00599F19 /* AppIcon.png */; };
+		289EA93D13EEDEE600599F19 /* FullscreenWriter.icns in Resources */ = {isa = PBXBuildFile; fileRef = 289EA93C13EEDEE600599F19 /* FullscreenWriter.icns */; };
+		289EA93F13EEDEEE00599F19 /* FullscreenWriter.icns in Resources */ = {isa = PBXBuildFile; fileRef = 289EA93E13EEDEEE00599F19 /* FullscreenWriter.icns */; };
+		289EA94113EEDEFE00599F19 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 289EA94013EEDEFE00599F19 /* AppIcon.png */; };
+		289EA94313EEE0C200599F19 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 289EA94213EEE0C200599F19 /* AppIcon.icns */; };
+		289EA94513EEE0CC00599F19 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 289EA94413EEE0CC00599F19 /* AppIcon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		289EA91413EECA6700599F19 /* FullscreenWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullscreenWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		289EA91813EECA6700599F19 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		289EA91B13EECA6700599F19 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		289EA91C13EECA6700599F19 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		289EA91D13EECA6700599F19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		289EA92013EECA6700599F19 /* FullscreenWriter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FullscreenWriter-Info.plist"; sourceTree = "<group>"; };
+		289EA92213EECA6700599F19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		289EA92413EECA6700599F19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		289EA92613EECA6700599F19 /* FullscreenWriter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FullscreenWriter-Prefix.pch"; sourceTree = "<group>"; };
+		289EA92813EECA6700599F19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		289EA92A13EECA6700599F19 /* FullscreenWriterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullscreenWriterAppDelegate.h; sourceTree = "<group>"; };
+		289EA92B13EECA6700599F19 /* FullscreenWriterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullscreenWriterAppDelegate.m; sourceTree = "<group>"; };
+		289EA92E13EECA6800599F19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		289EA93513EECA8100599F19 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		289EA93613EECA8100599F19 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		289EA93813EEDBAE00599F19 /* NoiseBg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoiseBg1.png; sourceTree = "<group>"; };
+		289EA93A13EEDEDB00599F19 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		289EA93C13EEDEE600599F19 /* FullscreenWriter.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = FullscreenWriter.icns; sourceTree = "<group>"; };
+		289EA93E13EEDEEE00599F19 /* FullscreenWriter.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = FullscreenWriter.icns; sourceTree = "<group>"; };
+		289EA94013EEDEFE00599F19 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		289EA94213EEE0C200599F19 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		289EA94413EEE0CC00599F19 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		289EA91113EECA6700599F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289EA91913EECA6700599F19 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		289EA90913EECA6700599F19 = {
+			isa = PBXGroup;
+			children = (
+				289EA94413EEE0CC00599F19 /* AppIcon.icns */,
+				289EA94013EEDEFE00599F19 /* AppIcon.png */,
+				289EA93E13EEDEEE00599F19 /* FullscreenWriter.icns */,
+				289EA91E13EECA6700599F19 /* FullscreenWriter */,
+				289EA91713EECA6700599F19 /* Frameworks */,
+				289EA91513EECA6700599F19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		289EA91513EECA6700599F19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				289EA91413EECA6700599F19 /* FullscreenWriter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		289EA91713EECA6700599F19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				289EA91813EECA6700599F19 /* Cocoa.framework */,
+				289EA91A13EECA6700599F19 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		289EA91A13EECA6700599F19 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				289EA91B13EECA6700599F19 /* AppKit.framework */,
+				289EA91C13EECA6700599F19 /* CoreData.framework */,
+				289EA91D13EECA6700599F19 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		289EA91E13EECA6700599F19 /* FullscreenWriter */ = {
+			isa = PBXGroup;
+			children = (
+				289EA94213EEE0C200599F19 /* AppIcon.icns */,
+				289EA93C13EEDEE600599F19 /* FullscreenWriter.icns */,
+				289EA93A13EEDEDB00599F19 /* AppIcon.png */,
+				289EA93813EEDBAE00599F19 /* NoiseBg1.png */,
+				289EA92A13EECA6700599F19 /* FullscreenWriterAppDelegate.h */,
+				289EA92B13EECA6700599F19 /* FullscreenWriterAppDelegate.m */,
+				289EA92D13EECA6800599F19 /* MainMenu.xib */,
+				289EA91F13EECA6700599F19 /* Supporting Files */,
+				289EA93513EECA8100599F19 /* AppController.h */,
+				289EA93613EECA8100599F19 /* AppController.m */,
+			);
+			path = FullscreenWriter;
+			sourceTree = "<group>";
+		};
+		289EA91F13EECA6700599F19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				289EA92013EECA6700599F19 /* FullscreenWriter-Info.plist */,
+				289EA92113EECA6700599F19 /* InfoPlist.strings */,
+				289EA92413EECA6700599F19 /* main.m */,
+				289EA92613EECA6700599F19 /* FullscreenWriter-Prefix.pch */,
+				289EA92713EECA6700599F19 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		289EA91313EECA6700599F19 /* FullscreenWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289EA93213EECA6800599F19 /* Build configuration list for PBXNativeTarget "FullscreenWriter" */;
+			buildPhases = (
+				289EA91013EECA6700599F19 /* Sources */,
+				289EA91113EECA6700599F19 /* Frameworks */,
+				289EA91213EECA6700599F19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullscreenWriter;
+			productName = FullscreenWriter;
+			productReference = 289EA91413EECA6700599F19 /* FullscreenWriter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		289EA90B13EECA6700599F19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 289EA90E13EECA6700599F19 /* Build configuration list for PBXProject "FullscreenWriter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 289EA90913EECA6700599F19;
+			productRefGroup = 289EA91513EECA6700599F19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				289EA91313EECA6700599F19 /* FullscreenWriter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		289EA91213EECA6700599F19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289EA92313EECA6700599F19 /* InfoPlist.strings in Resources */,
+				289EA92913EECA6700599F19 /* Credits.rtf in Resources */,
+				289EA92F13EECA6800599F19 /* MainMenu.xib in Resources */,
+				289EA93913EEDBAE00599F19 /* NoiseBg1.png in Resources */,
+				289EA93B13EEDEDB00599F19 /* AppIcon.png in Resources */,
+				289EA93D13EEDEE600599F19 /* FullscreenWriter.icns in Resources */,
+				289EA93F13EEDEEE00599F19 /* FullscreenWriter.icns in Resources */,
+				289EA94113EEDEFE00599F19 /* AppIcon.png in Resources */,
+				289EA94313EEE0C200599F19 /* AppIcon.icns in Resources */,
+				289EA94513EEE0CC00599F19 /* AppIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		289EA91013EECA6700599F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289EA92513EECA6700599F19 /* main.m in Sources */,
+				289EA92C13EECA6700599F19 /* FullscreenWriterAppDelegate.m in Sources */,
+				289EA93713EECA8100599F19 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		289EA92113EECA6700599F19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289EA92213EECA6700599F19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		289EA92713EECA6700599F19 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289EA92813EECA6700599F19 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		289EA92D13EECA6800599F19 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289EA92E13EECA6800599F19 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		289EA93013EECA6800599F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		289EA93113EECA6800599F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		289EA93313EECA6800599F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FullscreenWriter/FullscreenWriter-Prefix.pch";
+				INFOPLIST_FILE = "FullscreenWriter/FullscreenWriter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		289EA93413EECA6800599F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FullscreenWriter/FullscreenWriter-Prefix.pch";
+				INFOPLIST_FILE = "FullscreenWriter/FullscreenWriter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		289EA90E13EECA6700599F19 /* Build configuration list for PBXProject "FullscreenWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289EA93013EECA6800599F19 /* Debug */,
+				289EA93113EECA6800599F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289EA93213EECA6800599F19 /* Build configuration list for PBXNativeTarget "FullscreenWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289EA93313EECA6800599F19 /* Debug */,
+				289EA93413EECA6800599F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 289EA90B13EECA6700599F19 /* Project object */;
+}
