@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		287603A113EF1E6300599A58 /* TextDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 287603A013EF1E6300599A58 /* TextDocument.m */; };
 		289EA91913EECA6700599F19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289EA91813EECA6700599F19 /* Cocoa.framework */; };
 		289EA92313EECA6700599F19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 289EA92113EECA6700599F19 /* InfoPlist.strings */; };
 		289EA92513EECA6700599F19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 289EA92413EECA6700599F19 /* main.m */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2876039F13EF1E6300599A58 /* TextDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextDocument.h; sourceTree = "<group>"; };
+		287603A013EF1E6300599A58 /* TextDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextDocument.m; sourceTree = "<group>"; };
 		289EA91413EECA6700599F19 /* FullscreenWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullscreenWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		289EA91813EECA6700599F19 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		289EA91B13EECA6700599F19 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -112,6 +115,8 @@
 				289EA91F13EECA6700599F19 /* Supporting Files */,
 				289EA93513EECA8100599F19 /* AppController.h */,
 				289EA93613EECA8100599F19 /* AppController.m */,
+				2876039F13EF1E6300599A58 /* TextDocument.h */,
+				287603A013EF1E6300599A58 /* TextDocument.m */,
 			);
 			path = FullscreenWriter;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 				289EA92513EECA6700599F19 /* main.m in Sources */,
 				289EA92C13EECA6700599F19 /* FullscreenWriterAppDelegate.m in Sources */,
 				289EA93713EECA8100599F19 /* AppController.m in Sources */,
+				287603A113EF1E6300599A58 /* TextDocument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +328,7 @@
 				289EA93413EECA6800599F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

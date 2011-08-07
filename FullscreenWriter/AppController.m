@@ -10,11 +10,12 @@
 
 @implementation AppController
 
+@synthesize textBody, textTitle;
+
 - (id)init
 {
     self = [super init];
     if (self) {
-        NSLog(@"hallo");
     }
     
     return self;
@@ -22,6 +23,14 @@
 
 - (void)awakeFromNib
 {
+    textFiles = [[NSMutableArray alloc] init];
+    
+    TextDocument *tmp = [[TextDocument alloc] init];
+    tmp.title = @"test";
+    tmp.content = [[NSAttributedString alloc] initWithString:@"Hahahahaa"];
+    
+    [textFiles addObject:tmp];
+    
     [mainWindow setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];
     [mainWindow setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"NoiseBg1.png"]]];
 
@@ -34,4 +43,5 @@
 - (IBAction)toggleFullscreen:(id)sender {
     [mainWindow toggleFullScreen:self];
 }
+
 @end
