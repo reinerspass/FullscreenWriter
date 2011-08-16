@@ -25,12 +25,14 @@
     NSPopover *documentsPopover;
     NSPopover *settingsPopover;
     
+    NSScrollView *mainScrollView;
     NSPopUpButton *DocumentsDirectoryPopUpButton;
     
     NSData *textBody;
     NSString *textTitle;
     NSMutableArray *textFiles;
     
+    NSTextField *wordCountingLabel;
     NSUserDefaults *userDefaults;
 }
 
@@ -39,7 +41,7 @@
 - (void)setTextFiles:(NSMutableArray *)a;
 - (void)readFiles;
 - (void)setInitialUserDefaults;
-
+-(void)configureMainTextView;
 
 @property (copy, nonatomic) NSData *textBody;
 @property (copy, nonatomic) NSString *textTitle;
@@ -47,4 +49,6 @@
 @property (strong) IBOutlet NSPopover *documentsPopover;
 @property (strong) IBOutlet NSPopover *settingsPopover;
 @property (strong) IBOutlet NSPopUpButton *DocumentsDirectoryPopUpButton;
+@property (strong) IBOutlet NSScrollView *mainScrollView;
+@property (strong) IBOutlet NSTextField *wordCountingLabel;
 @end

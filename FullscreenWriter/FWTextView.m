@@ -14,31 +14,26 @@
 - (void)drawInsertionPointInRect:(NSRect)aRect
                            color:(NSColor *)aColor turnedOn:(BOOL)flag
 {
-	if (flag)
-		[aColor set];
-	else
-		[[self backgroundColor] set];
+    aRect.size.width = 8.0;
+    aRect.size.height = 16.0;
     
-    [[NSColor greenColor] set];
-	aRect.size.width = 10.0;
-	[NSBezierPath fillRect:aRect];
+	if (flag){
+		[aColor set];
+        [NSBezierPath fillRect:aRect];
+    }
+	else{
+		[[self backgroundColor] set];
+        [NSBezierPath fillRect:aRect];
+    }
 }
 
-- (NSColor *)insertionPointColor
+- (void) _drawInsertionPointInRect:(NSRect)aRect color:(NSColor*)aColor
 {
-    return [NSColor redColor];
-}*/
-
-
-- (void) resetCursorRects
-{
-    [super resetCursorRects];
-    [self addCursorRect: [self bounds]
-                 cursor: [NSCursor crosshairCursor]];
-    
-} // resetCursorRects
-
-
-
+    [aColor set];    
+	aRect.size.width = 8.0;
+	aRect.size.height = 16.0;
+	[NSBezierPath fillRect:aRect];
+}
+*/
 
 @end

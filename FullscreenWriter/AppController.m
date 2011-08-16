@@ -9,6 +9,8 @@
 #import "AppController.h"
 
 @implementation AppController
+@synthesize wordCountingLabel;
+@synthesize mainScrollView;
 @synthesize DocumentsDirectoryPopUpButton;
 @synthesize settingsPopover;
 @synthesize documentsPopover;
@@ -71,19 +73,45 @@
 {    
     [[headlineView cell] setBackgroundStyle:NSBackgroundStyleLight];
     [headlineView setTextColor:UIColorFromRGB(0x3f3c3a)];
+    [self configureMainTextView];
+}
+
+-(void)configureMainTextView
+{
+    NSString *font = [userDefaults objectForKey:@"FontType"];
+    int size = [[userDefaults objectForKey:@"FontSize"] intValue];
+    
+    CGFloat spacing = 20;
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    //    [paragraphStyle setLineHeightMultiple:spacing];
+    [paragraphStyle setLineSpacing:spacing];
+    
+    NSDictionary *attributes = [[NSDictionary alloc] initWithObjectsAndKeys:
+                                [NSFont fontWithName:font size:size], NSFontAttributeName, 
+                                UIColorFromRGB(0x3f3c3a), NSForegroundColorAttributeName, 
+                                //paragraphStyle,NSParagraphStyleAttributeName,
+                                nil];
+    
+    //[mainTextView setDefaultParagraphStyle:paragraphStyle];
+    
     
     [mainWindow setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];
     [mainWindow setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"NoiseBg1.png"]]];
-    //[mainWindow setBackgroundColor:[NSColor lightGrayColor]];
-    //[mainTextView setFont:[NSFont fontWithName:[userDefaults objectForKey:@"FontType"] size:[[userDefaults objectForKey:@"FontSize"] intValue]]];
+    [mainTextView setFont:[NSFont fontWithName:[userDefaults objectForKey:@"FontType"] size:[[userDefaults objectForKey:@"FontSize"] intValue]]];
     
-    [mainTextView setInsertionPointColor:UIColorFromRGB(0xbd0000)
-     ];
+    [mainTextView setInsertionPointColor:UIColorFromRGB(0xbd0000)];
     [mainTextView setSelectedTextAttributes:
-    [NSDictionary dictionaryWithObjectsAndKeys:
-        UIColorFromRGB(0xbd0000), NSBackgroundColorAttributeName,
-        [NSColor whiteColor], NSForegroundColorAttributeName,
-        nil]];
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      UIColorFromRGB(0xbd0000), NSBackgroundColorAttributeName,
+      [NSColor whiteColor], NSForegroundColorAttributeName,
+      nil]];
+    
+    [mainTextView setBackgroundColor:[NSColor redColor]];
+    //[[mainTextView textContainer] setContainerSize:NSMakeSize(100, 100)];
+    [mainTextView setBounds:NSMakeRect(0,
+            100, mainTextView.bounds.size.width, mainTextView.bounds.size.height)];
+    //[[mainTextView textContainer] ]
+    [mainScrollView setScrollerStyle:NSScrollerStyleOverlay];
 }
 
 - (IBAction)toggleFullscreen:(id)sender {
@@ -119,13 +147,17 @@
 #pragma mark - delegate Method for Documents Table View
 - (void)tableViewSelectionDidChange:(NSNotification *)aNotification
 {
-    NSLog(@"hit!");
+
 }
 
 
 #pragma mark delegate method for Text View
 - (void)textDidChange:(NSNotification *)aNotification
 {
+    NSLog(@"height: %f", [mainTextView bounds].size.height);
+    
+    int numberOfWords = [[[mainTextView textStorage] words] count];
+    [wordCountingLabel setStringValue:[NSString stringWithFormat:@"%d words", numberOfWords]];
 }
 
 #pragma mark - Inteface Methods
@@ -142,7 +174,7 @@
         [settingsPopover showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMaxYEdge];
     } else {
         [settingsPopover close];
-    }
+    }    
 }
 
 - (IBAction)chooseDocumentsFolder:(id)sender {

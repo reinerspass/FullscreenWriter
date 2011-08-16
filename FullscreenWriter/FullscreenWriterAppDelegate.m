@@ -15,7 +15,6 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
-    
 }
 
 @end

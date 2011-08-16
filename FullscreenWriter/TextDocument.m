@@ -46,15 +46,16 @@
     NSString *font = [userDefaults objectForKey:@"FontType"];
     int size = [[userDefaults objectForKey:@"FontSize"] intValue];
     
-    CGFloat spacing = 1.4f;
+    CGFloat spacing = 20;
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
-    [paragraphStyle setLineHeightMultiple:spacing];
-//    [paragraphStyle setLineSpacing:spacing];
+
+    [paragraphStyle setLineSpacing:spacing];
 
     NSDictionary *attributes = [[NSDictionary alloc] initWithObjectsAndKeys:
                                 [NSFont fontWithName:font size:size], NSFontAttributeName, 
-                                UIColorFromRGB(0x3f3c3a), NSForegroundColorAttributeName, 
-                                paragraphStyle,NSParagraphStyleAttributeName,nil];
+                                NSColorFromRGB(0x3f3c3a), NSForegroundColorAttributeName, 
+                                //paragraphStyle,NSParagraphStyleAttributeName,
+                                nil];
     
     NSAttributedString *attrContent = [[NSAttributedString alloc] 
                                        initWithString:content
