@@ -9,12 +9,14 @@
 #import "AppController.h"
 
 @implementation AppController
+@synthesize documentsTableView;
+@synthesize documentsButton;
+@synthesize settingsButton;
 @synthesize wordCountingLabel;
 @synthesize mainScrollView;
 @synthesize DocumentsDirectoryPopUpButton;
 @synthesize settingsPopover;
 @synthesize documentsPopover;
-
 @synthesize textBody, textTitle;
 
 
@@ -25,6 +27,10 @@
         userDefaults = [NSUserDefaults standardUserDefaults];
         [self setInitialUserDefaults];
         [self readFiles];
+        
+        offsetY = 40;
+        offsetX = 40;
+
     }
     return self;
 }
@@ -61,9 +67,12 @@
 {
     /* Set initial User Defaults to NSUserDefaults */
     NSMutableDictionary* initialDefaults = [[NSMutableDictionary alloc] init];
-    [initialDefaults setObject:[NSHomeDirectory() stringByAppendingPathComponent:@"Documents/PlainText"] forKey:@"filesFolder"];
-    [initialDefaults setObject:@"Georgia" forKey:@"FontType"];
-    [initialDefaults setObject:[NSNumber numberWithInt:14] forKey:@"FontSize"];
+    [initialDefaults setObject:[NSHomeDirectory() stringByAppendingPathComponent:@"Documents/PlainText"] 
+                        forKey:@"filesFolder"];
+    [initialDefaults setObject:@"Georgia" 
+                        forKey:@"FontType"];
+    [initialDefaults setObject:[NSNumber numberWithInt:14] 
+                        forKey:@"FontSize"];
     [userDefaults registerDefaults:initialDefaults];
 }
 
@@ -74,6 +83,8 @@
     [[headlineView cell] setBackgroundStyle:NSBackgroundStyleLight];
     [headlineView setTextColor:UIColorFromRGB(0x3f3c3a)];
     [self configureMainTextView];
+    [self setCountingLabel];
+
 }
 
 -(void)configureMainTextView
@@ -99,19 +110,17 @@
     [mainWindow setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"NoiseBg1.png"]]];
     [mainTextView setFont:[NSFont fontWithName:[userDefaults objectForKey:@"FontType"] size:[[userDefaults objectForKey:@"FontSize"] intValue]]];
     
-    [mainTextView setInsertionPointColor:UIColorFromRGB(0xbd0000)];
+    [mainTextView setInsertionPointColor:UIColorFromRGB(0x1db2dd)];
     [mainTextView setSelectedTextAttributes:
      [NSDictionary dictionaryWithObjectsAndKeys:
-      UIColorFromRGB(0xbd0000), NSBackgroundColorAttributeName,
+      UIColorFromRGB(0x1db2dd), NSBackgroundColorAttributeName,
       [NSColor whiteColor], NSForegroundColorAttributeName,
       nil]];
     
-    [mainTextView setBackgroundColor:[NSColor redColor]];
-    //[[mainTextView textContainer] setContainerSize:NSMakeSize(100, 100)];
-    [mainTextView setBounds:NSMakeRect(0,
-            100, mainTextView.bounds.size.width, mainTextView.bounds.size.height)];
-    //[[mainTextView textContainer] ]
-    [mainScrollView setScrollerStyle:NSScrollerStyleOverlay];
+    // Top and bottom spacing of of Text Container
+    [mainTextView setTextContainerInset:NSMakeSize(offsetX, offsetY)]; //mainScrollView.bounds.size.height/1.5
+
+    [mainTextView setRichText:NO];
 }
 
 - (IBAction)toggleFullscreen:(id)sender {
@@ -126,9 +135,18 @@
     [markdownWindow makeKeyAndOrderFront:self];
 }
 
+- (void)setCountingLabel
+{
+    NSUInteger numberOfWords = [[[mainTextView textStorage] words] count];
+    [wordCountingLabel setStringValue:[NSString stringWithFormat:@"%d words", numberOfWords]];
+}
+
+
 #pragma mark - KVC Methods for Text Files Array
 -(void)insertObject:(TextDocument *)p inTextFilesAtIndex:(NSUInteger)index {
     [textFiles addObject:p];
+    [headlineView becomeFirstResponder];
+    [self closePopovers];
 }
 
 -(void)removeObjectFromTextFilesAtIndex:(NSUInteger)index {
@@ -143,21 +161,33 @@
     return textFiles;
 }
 
+#pragma mark - delegate Method for Main view
 
-#pragma mark - delegate Method for Documents Table View
-- (void)tableViewSelectionDidChange:(NSNotification *)aNotification
+- (void)windowDidResize:(NSNotification *)notification
 {
-
 }
 
+#pragma mark delegate Method for Documents Table View
+- (void)tableViewSelectionDidChange:(NSNotification *)aNotification
+{
+    //[self closePopovers];
+    [self setCountingLabel];
+    //NSLog(@"selected index %d",(int)[documentsTableView selectedRow]);
+}
 
 #pragma mark delegate method for Text View
 - (void)textDidChange:(NSNotification *)aNotification
 {
-    NSLog(@"height: %f", [mainTextView bounds].size.height);
+    [self setCountingLabel];
+    /* // Typewriter Scrolling (Pain in the ass)
+    NSPoint newScrollToPoint;
+    if (YES) {
+        newScrollToPoint = NSMakePoint(0, mainTextView.cursorPoint.y+mainScrollView.bounds.size.height); //); 
+    }
     
-    int numberOfWords = [[[mainTextView textStorage] words] count];
-    [wordCountingLabel setStringValue:[NSString stringWithFormat:@"%d words", numberOfWords]];
+    [[mainScrollView contentView] scrollToPoint: newScrollToPoint];
+    [mainScrollView reflectScrolledClipView: [mainScrollView contentView]];
+    */
 }
 
 #pragma mark - Inteface Methods
@@ -165,7 +195,7 @@
     if (![documentsPopover isShown]) {
         [documentsPopover showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMaxYEdge];
     } else {
-        [documentsPopover close];
+        [self closePopovers];
     }
 }
 
@@ -173,7 +203,7 @@
     if (![settingsPopover isShown]) {
         [settingsPopover showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMaxYEdge];
     } else {
-        [settingsPopover close];
+        [self closePopovers];
     }    
 }
 
@@ -183,12 +213,18 @@
     [openDlg setCanChooseDirectories:YES];
     [openDlg setAllowsMultipleSelection:NO];
     [openDlg setCanChooseFiles:NO];
-    //[openDlg directoryURL];
     if ([openDlg runModal] == NSOKButton )
     {
         [[NSUserDefaults standardUserDefaults] setObject:[[openDlg directoryURL] path] forKey:@"filesFolder"];
         [self readFiles];
     }
+}
+
+- (void)closePopovers{
+    [documentsPopover close];
+    [settingsPopover close];
+    [documentsButton setState:0];
+    [settingsButton setState:0];
 }
 
 @end

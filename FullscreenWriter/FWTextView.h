@@ -8,6 +8,15 @@
 
 #import <AppKit/AppKit.h>
 
+
+
 @interface FWTextView : NSTextView
+{
+    CGPoint cursorPoint;
+}
+- (CGPoint)cursorPoint;
+
 
 @end
+
+

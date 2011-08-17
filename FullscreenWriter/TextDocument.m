@@ -61,6 +61,8 @@
                                        initWithString:content
                                        attributes: attributes];
 
+    NSAttributedString *attContent = [[NSAttributedString alloc] initWithString:content];
+    
     return attrContent;
 }
 
@@ -74,5 +76,11 @@
     return content;
 }
 
+-(void)dealloc{
+    NSURL *source = [NSURL fileURLWithPath:[[folderPath stringByAppendingPathComponent:title] stringByAppendingPathExtension:@"txt"]];
+    
+    NSArray *urlArray = [[NSArray alloc] initWithObjects:source, nil];
+    [[NSWorkspace sharedWorkspace] recycleURLs:urlArray completionHandler:nil];
+}
 
 @end

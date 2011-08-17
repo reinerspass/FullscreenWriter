@@ -1,0 +1,667 @@
+TFullscreenWriter
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Info.plist FullscreenWriter/FullscreenWriter-Info.plist
+cProcessPCH /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch.pth FullscreenWriter/FullscreenWriter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-aqialevdbgqidndlsibepldrhhun/FullscreenWriter-Prefix.pch.pth FullscreenWriter/FullscreenWriter-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/array.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/array.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/buffer.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/buffer.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/markdown.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/renderers.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/renderers.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FullscreenWriterAppDelegate.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriterAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/main.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/AppController.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/TextDocument.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/MarkdownWrapper.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/MarkdownWrapper.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FWTextView.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FWTextView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/LastPathComponentTransformer.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/LastPathComponentTransformer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/MacOS/FullscreenWriter normal x86_64
+cCopyStringsFile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/InfoPlist.strings FullscreenWriter/en.lproj/InfoPlist.strings
+cCpResource FullscreenWriter/en.lproj/Credits.rtf DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/MainMenu.xib
+cCpResource FullscreenWriter/NoiseBg1.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/NoiseBg1.png
+cCpResource AppIcon.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.png
+cCpResource AppIcon.icns DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.icns
+cCpResource FullscreenWriter/Assets/ButtonDocuments.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocuments.png
+cCpResource FullscreenWriter/Assets/ButtonSettings.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettings.png
+cCpResource FullscreenWriter/Assets/ShaddowBottom.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowBottom.png
+cCpResource FullscreenWriter/Assets/ShaddowTop.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowTop.png
+cCpResource FullscreenWriter/Assets/ButtonDocumentsInactive.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocumentsInactive.png
+cCpResource FullscreenWriter/Assets/ButtonSettingsInactive.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettingsInactive.png
+cTouch /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app
+
+N/DeveloperBeta/SDKs/MacOSX10.7.sdk
+c000000004E41030100000000000000EE
+t1312883457
+s238
+
+N/DeveloperBeta/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E1106CE0000000000002470
+t1309738702
+s9328
+
+N/DeveloperBeta/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004E1106D00000000000083A6C
+t1309738704
+s539244
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/AppIcon.icns
+c000000004E3EA93900000000000126F0
+t1312729401
+s75504
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/AppIcon.png
+c000000004E3EA71D00000000000026F5
+t1312728861
+s9973
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/AppController.o
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FWTextView.o
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FullscreenWriter.LinkFileList
+c000000004E4B88AD0000000000000850
+t1313573037
+s2128
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FullscreenWriterAppDelegate.o
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/LastPathComponentTransformer.o
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/MarkdownWrapper.o
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/TextDocument.o
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/array.o
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/buffer.o
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/markdown.o
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/renderers.o
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-aqialevdbgqidndlsibepldrhhun/FullscreenWriter-Prefix.pch.pth
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch.pth
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/MacOS/FullscreenWriter
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.icns
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.png
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocuments.png
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocumentsInactive.png
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettings.png
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettingsInactive.png
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/NoiseBg1.png
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowBottom.png
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowTop.png
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m
+c000000004E4A6E240000000000001AAB
+t1313500708
+s6827
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/Assets/ButtonDocuments.png
+c000000004E48E8A40000000000000791
+t1313400996
+s1937
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/Assets/ButtonDocumentsInactive.png
+c000000004E48FC7000000000000007AF
+t1313406064
+s1967
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/Assets/ButtonSettings.png
+c000000004E48E8A400000000000008EC
+t1313400996
+s2284
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/Assets/ButtonSettingsInactive.png
+c000000004E48FC7000000000000008E5
+t1313406064
+s2277
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/Assets/ShaddowBottom.png
+c000000004E48E8A4000000000000071B
+t1313400996
+s1819
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/Assets/ShaddowTop.png
+c000000004E48E8A400000000000007A2
+t1313400996
+s1954
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FWTextView.m
+c000000004E4A59480000000000000393
+t1313495368
+s915
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriter-Prefix.pch
+c000000004E3E92E700000000000000A3
+t1312723687
+s163
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriterAppDelegate.m
+c000000004E494D4F00000000000001B3
+t1313426767
+s435
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/LastPathComponentTransformer.m
+c000000004E4908A00000000000000247
+t1313409184
+s583
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/MarkdownWrapper.m
+c000000004E47DB0D000000000000057C
+t1313331981
+s1404
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/NoiseBg1.png
+c000000004E47B7530000000000043F74
+t1313322835
+s278388
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m
+c000000004E4A6E93000000000000094B
+t1313500819
+s2379
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/Credits.rtf
+c000000004E4584D900000000000001D9
+t1313178841
+s473
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/InfoPlist.strings
+c000000004E3E92E7000000000000002D
+t1312723687
+s45
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/MainMenu.xib
+c000000004E4B70420000000000038143
+t1313566786
+s229699
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/array.c
+c000000004E451F420000000000001E90
+t1313152834
+s7824
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/buffer.c
+c000000004E451F420000000000001D9F
+t1313152834
+s7583
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c
+c000000004E451F42000000000000AD51
+t1313152834
+s44369
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/renderers.c
+c000000004E451F420000000000003DB9
+t1313152834
+s15801
+
+N/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/main.m
+c000000004E3E92E70000000000000104
+t1312723687
+s260
+
+NFullscreenWriter/FullscreenWriter-Info.plist
+c000000004E3EA94C0000000000000455
+t1312729420
+s1109
+
+CBuild AST from /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m
+r0
+
+CBuild AST from /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FWTextView.m
+r0
+
+CBuild AST from /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriterAppDelegate.m
+r0
+
+CBuild AST from /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/LastPathComponentTransformer.m
+r0
+
+CBuild AST from /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/MarkdownWrapper.m
+r0
+
+CBuild AST from /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m
+r0
+
+CBuild AST from /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/array.c
+r0
+
+CBuild AST from /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/buffer.c
+r0
+
+CBuild AST from /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c
+r0
+
+CBuild AST from /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/renderers.c
+r0
+
+CBuild AST from /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd386532dc0fbb341^6a15cd2dc0fbb341^---0#1#0#--18"Check dependencies36"2641F7C3-126E-42DC-B0A3-F28B081985CC-
+
+CCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/AppController.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s335265840.165566
+e335265840.402207
+r1
+xCompileC
+xDerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/AppController.o
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m:44:17: warning: 'directoryContentsAtPath:' is deprecated [-Wdeprecated-declarations,8]
+o     filelist = [filemgr directoryContentsAtPath: folder];
+o                 ^
+o/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m:95:19: warning: unused variable 'attributes' [-Wunused-variable,12]
+o     NSDictionary *attributes = [[NSDictionary alloc] initWithObjectsAndKeys:
+o                   ^
+o2 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m02a02a30c0fbb341^e4f76630c0fbb341^-530"/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m:44:17: warning: 'directoryContentsAtPath:' is deprecated [-Wdeprecated-declarations,8]     filelist = [filemgr directoryContentsAtPath: folder];                 ^/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m:95:19: warning: unused variable 'attributes' [-Wunused-variable,12]     NSDictionary *attributes = [[NSDictionary alloc] initWithObjectsAndKeys:                   ^2 warnings generated.2(21%IDEActivityLogMessage2@40"'directoryContentsAtPath:' is deprecated-335265840#0#175#-1#-23%DVTTextDocumentLocation3@103"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m0000000000000000^43#16#43#16#18446744073709551615#0#12"Deprecations--2@28"Unused variable 'attributes'-335265840#253#156#-1#-3@103"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m0000000000000000^94#18#94#18#18446744073709551615#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@103"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m0000000000000000^3086"CompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/AppController.o FullscreenWriter/AppController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -include /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/AppController.d -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/AppController.m -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/AppController.o36"1DA2D899-D98D-447A-A8AA-A1C4145B67BB-
+
+CCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FWTextView.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FWTextView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s335265840.561830
+e335265840.636012
+r1
+xCompileC
+xDerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FWTextView.o
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FWTextView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FWTextView.m22fc8f30c0fbb341^761bb030c0fbb341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FWTextView.m0000000000000000^3071"CompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FWTextView.o FullscreenWriter/FWTextView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -include /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FWTextView.d -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FWTextView.m -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FWTextView.o36"E4190227-5847-42E9-8605-1B9B534BBF9E-
+
+CCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FullscreenWriterAppDelegate.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriterAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s335265839.879206
+e335265840.116773
+r1
+xCompileC
+xDerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FullscreenWriterAppDelegate.o
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriterAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriterAppDelegate.m:17:21: warning: unused variable 'userDefaults' [-Wunused-variable,12]
+o     NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
+o                     ^
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriterAppDelegate.md53ee12fc0fbb341^c1e51d30c0fbb341^-291"/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriterAppDelegate.m:17:21: warning: unused variable 'userDefaults' [-Wunused-variable,12]     NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];                     ^1 warning generated.1(21%IDEActivityLogMessage2@30"Unused variable 'userDefaults'-335265840#0#172#-1#-23%DVTTextDocumentLocation3@117"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriterAppDelegate.m0000000000000000^16#20#16#20#18446744073709551615#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@117"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriterAppDelegate.m0000000000000000^3156"CompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FullscreenWriterAppDelegate.o FullscreenWriter/FullscreenWriterAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -include /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FullscreenWriterAppDelegate.d -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriterAppDelegate.m -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FullscreenWriterAppDelegate.o36"79A251F5-1332-4F1F-9793-7431AC8D4B60-
+
+CCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/LastPathComponentTransformer.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/LastPathComponentTransformer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s335265840.637366
+e335265840.716370
+r1
+xCompileC
+xDerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/LastPathComponentTransformer.o
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/LastPathComponentTransformer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/LastPathComponentTransformer.m185ca330c0fbb341^d121b830c0fbb341^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/LastPathComponentTransformer.m0000000000000000^3161"CompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/LastPathComponentTransformer.o FullscreenWriter/LastPathComponentTransformer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -include /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/LastPathComponentTransformer.d -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/LastPathComponentTransformer.m -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/LastPathComponentTransformer.o36"D26CFCD3-914F-492E-9CA0-888B541DE3FC-
+
+CCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/MarkdownWrapper.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/MarkdownWrapper.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s335265840.484089
+e335265840.558850
+r1
+xCompileC
+xDerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/MarkdownWrapper.o
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/MarkdownWrapper.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/MarkdownWrapper.mfc177c30c0fbb341^8acc9430c0fbb341^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/MarkdownWrapper.m0000000000000000^3096"CompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/MarkdownWrapper.o FullscreenWriter/MarkdownWrapper.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -include /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/MarkdownWrapper.d -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/MarkdownWrapper.m -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/MarkdownWrapper.o36"E4695708-8B31-4356-85D8-4A747372138E-
+
+CCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/TextDocument.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s335265840.403574
+e335265840.482490
+r1
+xCompileC
+xDerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/TextDocument.o
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m:64:25: warning: unused variable 'attContent' [-Wunused-variable,12]
+o     NSAttributedString *attContent = [[NSAttributedString alloc] initWithString:content];
+o                         ^
+o/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m:76:12:{76:12-76:19}: warning: incompatible pointer types returning 'NSString *__strong' from a function with result type 'NSMutableString *' [-Wincompatible-pointer-types,3]
+o     return content;
+o            ^~~~~~~
+o2 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m7d776730c0fbb341^e10c8230c0fbb341^-597"/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m:64:25: warning: unused variable 'attContent' [-Wunused-variable,12]     NSAttributedString *attContent = [[NSAttributedString alloc] initWithString:content];                         ^/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m:76:12:{76:12-76:19}: warning: incompatible pointer types returning 'NSString *__strong' from a function with result type 'NSMutableString *' [-Wincompatible-pointer-types,3]     return content;            ^~~~~~~2 warnings generated.2(21%IDEActivityLogMessage2@28"Unused variable 'attContent'-335265840#0#155#-1#-23%DVTTextDocumentLocation3@102"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m0000000000000000^63#24#63#24#18446744073709551615#0#19"Unused Entity Issue--2@110"Incompatible pointer types returning 'NSString *__strong' from a function with result type 'NSMutableString *'-335265840#273#261#-1#-3@102"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m0000000000000000^75#11#75#11#18446744073709551615#0#14"Semantic Issue1(3@102"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m0000000000000000^75#11#75#18#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@102"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m0000000000000000^3081"CompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/TextDocument.o FullscreenWriter/TextDocument.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -include /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/TextDocument.d -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/TextDocument.m -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/TextDocument.o36"B216F166-0146-4408-B928-DB4F57C0B1F8-
+
+CCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/array.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/array.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s335265838.013334
+e335265838.153747
+r1
+xCompileC
+xDerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/array.o
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/array.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/array.ce998032ec0fbb341^c05c272ec0fbb341^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/array.c0000000000000000^2874"CompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/array.o FullscreenWriter/libupskirt/array.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -include /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-aqialevdbgqidndlsibepldrhhun/FullscreenWriter-Prefix.pch -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/array.d -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/array.c -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/array.o36"414E3654-B962-4F81-8C7E-1245D476BBD2-
+
+CCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/buffer.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/buffer.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s335265838.155147
+e335265838.236123
+r1
+xCompileC
+xDerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/buffer.o
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/buffer.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/buffer.c61de272ec0fbb341^4eb64d2ec0fbb341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/buffer.c0000000000000000^2879"CompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/buffer.o FullscreenWriter/libupskirt/buffer.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -include /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-aqialevdbgqidndlsibepldrhhun/FullscreenWriter-Prefix.pch -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/buffer.d -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/buffer.c -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/buffer.o36"E845446D-8019-42E8-A61E-B65E0C59D696-
+
+CCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/main.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s335265840.118154
+e335265840.164178
+r1
+xCompileC
+xDerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/main.o
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/main.m145e1e30c0fbb341^e6072a30c0fbb341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/main.m0000000000000000^3041"CompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/main.o FullscreenWriter/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -include /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/main.d -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/main.m -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/main.o36"742B1E6E-63DB-4B5E-BE27-56BF84973A5D-
+
+CCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/markdown.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s335265838.269686
+e335265838.434875
+r1
+xCompileC
+xDerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/markdown.o
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c:146:13:{146:13-146:14}{146:11-146:12}: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32,3]
+o         key.size = i;
+o                  ~ ^
+o/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c:750:20:{750:20-750:33}{750:18-750:19}: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32,3]
+o         rndr->work.size = org_work_size;
+o                         ~ ^~~~~~~~~~~~~
+o2 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c8332452ec0fbb341^234baa2ec0fbb341^-650"/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c:146:13:{146:13-146:14}{146:11-146:12}: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32,3]         key.size = i;                  ~ ^/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c:750:20:{750:20-750:33}{750:18-750:19}: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32,3]         rndr->work.size = org_work_size;                         ~ ^~~~~~~~~~~~~2 warnings generated.2(21%IDEActivityLogMessage2@84"Implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int'53"Implicit conversion loses integer precision: 'size_t'335265838#0#250#-1#-23%DVTTextDocumentLocation3@109"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c0000000000000000^145#12#145#12#18446744073709551615#0#14"Semantic Issue2(3@109"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c0000000000000000^145#12#145#13#18446744073709551615#0#3@109"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c0000000000000000^145#10#145#11#18446744073709551615#0#-2@84"Implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int'53"Implicit conversion loses integer precision: 'size_t'335265838#295#250#-1#-3@109"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c0000000000000000^749#19#749#19#18446744073709551615#0#14"Semantic Issue2(3@109"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c0000000000000000^749#19#749#32#18446744073709551615#0#3@109"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c0000000000000000^749#17#749#18#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@109"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c0000000000000000^2889"CompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/markdown.o FullscreenWriter/libupskirt/markdown.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -include /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-aqialevdbgqidndlsibepldrhhun/FullscreenWriter-Prefix.pch -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/markdown.d -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/markdown.c -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/markdown.o36"CC797B02-A782-4B35-999D-AB9BFC8D6E84-
+
+CCompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/renderers.o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/renderers.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s335265838.436230
+e335265838.562298
+r1
+xCompileC
+xDerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/renderers.o
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/renderers.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/renderers.c0bcf6f2ec0fbb341^7158aa2ec0fbb341^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/renderers.c0000000000000000^2894"CompileC DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/renderers.o FullscreenWriter/libupskirt/renderers.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -include /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-aqialevdbgqidndlsibepldrhhun/FullscreenWriter-Prefix.pch -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/renderers.d -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/libupskirt/renderers.c -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/renderers.o36"42FD4D52-13E8-4747-8300-3710807A8148-
+
+CCompileXIB /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/MainMenu.xib
+s335265841.049492
+e335265842.403175
+r1
+xCompileXIB
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.warnings */
+o/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compiling /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/MainMenu.xib1abf0c31c0fbb341^39456732c0fbb341^-290"/* com.apple.ibtool.document.warnings *//Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]1(21%IDEActivityLogMessage2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar335265842#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@109"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/MainMenu.xib0000000000000000^370#18446744073709551615#370#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@109"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/MainMenu.xib0000000000000000^586"CompileXIB FullscreenWriter/en.lproj/MainMenu.xib    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv XCODE_DEVELOPER_USR_PATH /DeveloperBeta/usr/bin/..    /DeveloperBeta/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/MainMenu.nib /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/MainMenu.xib --sdk /DeveloperBeta/SDKs/MacOSX10.7.sdk36"4ABABFB1-5D5B-4AA9-ACF2-622608251ACD-
+
+CCopyStringsFile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/InfoPlist.strings FullscreenWriter/en.lproj/InfoPlist.strings
+s335265841.018026
+e335265841.027557
+r1
+xCopyStringsFile
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/InfoPlist.strings
+xFullscreenWriter/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy FullscreenWriter/en.lproj/InfoPlist.strings5bd20531c0fbb341^e00f0731c0fbb341^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/InfoPlist.strings0000000000000000^530"CopyStringsFile DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/InfoPlist.strings FullscreenWriter/en.lproj/InfoPlist.strings    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj -- FullscreenWriter/en.lproj/InfoPlist.strings36"1AD9C187-6EDB-422F-B8DF-B8815BD6F904-
+
+CCpResource AppIcon.icns DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.icns
+s335265842.445065
+e335265842.448582
+r1
+xCpResource
+xAppIcon.icns
+xDerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.icns
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.icnsa7027232c0fbb341^54e27232c0fbb341^---0#0#0#-19%DVTDocumentLocation2@173"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.icns00f47482dfffdf42^501"CpResource AppIcon.icns DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.icns    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/AppIcon.icns /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources36"46E16D66-5141-4299-BED9-DF62F839756F-
+
+CCpResource AppIcon.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.png
+s335265842.433665
+e335265842.443657
+r1
+xCpResource
+xAppIcon.png
+xDerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.png65186f32c0fbb341^3a947132c0fbb341^---0#0#0#-19%DVTDocumentLocation2@172"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.png00f47482dfffdf42^498"CpResource AppIcon.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/AppIcon.png    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/AppIcon.png /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources36"BB255966-013E-4517-A720-0B366367973B-
+
+CCpResource FullscreenWriter/Assets/ButtonDocuments.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocuments.png
+s335265842.449836
+e335265842.463276
+r1
+xCpResource
+xFullscreenWriter/Assets/ButtonDocuments.png
+xDerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocuments.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocuments.pngde3a7332c0fbb341^c2a67632c0fbb341^---0#0#0#-19%DVTDocumentLocation2@180"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocuments.png00f47482dfffdf42^570"CpResource FullscreenWriter/Assets/ButtonDocuments.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocuments.png    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/Assets/ButtonDocuments.png /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources36"B2C05447-A004-4124-8550-108EB4CE112E-
+
+CCpResource FullscreenWriter/Assets/ButtonDocumentsInactive.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocumentsInactive.png
+s335265842.489656
+e335265842.509475
+r1
+xCpResource
+xFullscreenWriter/Assets/ButtonDocumentsInactive.png
+xDerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocumentsInactive.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Copy DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocumentsInactive.png7e717d32c0fbb341^486d8232c0fbb341^---0#0#0#-19%DVTDocumentLocation2@188"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocumentsInactive.png00f47482dfffdf42^594"CpResource FullscreenWriter/Assets/ButtonDocumentsInactive.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonDocumentsInactive.png    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/Assets/ButtonDocumentsInactive.png /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources36"5CF74DF2-6B79-46FA-A3A0-136CFBDF8C20-
+
+CCpResource FullscreenWriter/Assets/ButtonSettings.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettings.png
+s335265842.464506
+e335265842.468698
+r1
+xCpResource
+xFullscreenWriter/Assets/ButtonSettings.png
+xDerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettings.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettings.png16fc7632c0fbb341^10087832c0fbb341^---0#0#0#-19%DVTDocumentLocation2@179"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettings.png00f47482dfffdf42^567"CpResource FullscreenWriter/Assets/ButtonSettings.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettings.png    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/Assets/ButtonSettings.png /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources36"D2CDB75E-4FEE-4E21-BB9C-22849D59F805-
+
+CCpResource FullscreenWriter/Assets/ButtonSettingsInactive.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettingsInactive.png
+s335265842.510845
+e335265842.515354
+r1
+xCpResource
+xFullscreenWriter/Assets/ButtonSettingsInactive.png
+xDerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettingsInactive.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Copy DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettingsInactive.png33de8232c0fbb341^f6ee8332c0fbb341^---0#0#0#-19%DVTDocumentLocation2@187"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettingsInactive.png00f47482dfffdf42^591"CpResource FullscreenWriter/Assets/ButtonSettingsInactive.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ButtonSettingsInactive.png    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/Assets/ButtonSettingsInactive.png /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources36"6C7992F1-1648-48ED-8A84-5311405C0FD1-
+
+CCpResource FullscreenWriter/Assets/ShaddowBottom.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowBottom.png
+s335265842.470092
+e335265842.479742
+r1
+xCpResource
+xFullscreenWriter/Assets/ShaddowBottom.png
+xDerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowBottom.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowBottom.pnge76d7832c0fbb341^c4d07a32c0fbb341^---0#0#0#-19%DVTDocumentLocation2@178"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowBottom.png00f47482dfffdf42^564"CpResource FullscreenWriter/Assets/ShaddowBottom.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowBottom.png    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/Assets/ShaddowBottom.png /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources36"BEBF3D57-C2E1-4009-BC04-9D41609DB85D-
+
+CCpResource FullscreenWriter/Assets/ShaddowTop.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowTop.png
+s335265842.481209
+e335265842.488291
+r1
+xCpResource
+xFullscreenWriter/Assets/ShaddowTop.png
+xDerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowTop.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowTop.pngb3447b32c0fbb341^ec127d32c0fbb341^---0#0#0#-19%DVTDocumentLocation2@175"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowTop.png00f47482dfffdf42^555"CpResource FullscreenWriter/Assets/ShaddowTop.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/ShaddowTop.png    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/Assets/ShaddowTop.png /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources36"2C3468EA-11D4-4834-9D12-61B7DA77BEFB-
+
+CCpResource FullscreenWriter/NoiseBg1.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/NoiseBg1.png
+s335265842.404560
+e335265842.431552
+r1
+xCpResource
+xFullscreenWriter/NoiseBg1.png
+xDerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/NoiseBg1.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/NoiseBg1.pngbbf06732c0fbb341^2d7b6e32c0fbb341^---0#0#0#-19%DVTDocumentLocation2@173"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/NoiseBg1.png00f47482dfffdf42^535"CpResource FullscreenWriter/NoiseBg1.png DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/NoiseBg1.png    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/NoiseBg1.png /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources36"54C1E7DB-E79E-4F33-AAC0-DFF248170512-
+
+CCpResource FullscreenWriter/en.lproj/Credits.rtf DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/Credits.rtf
+s335265841.028886
+e335265841.048151
+r1
+xCpResource
+xFullscreenWriter/en.lproj/Credits.rtf
+xDerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/Credits.rtf817a0731c0fbb341^5b5f0c31c0fbb341^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/Credits.rtf00f47482dfffdf42^568"CpResource FullscreenWriter/en.lproj/Credits.rtf DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj/Credits.rtf    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/en.lproj/Credits.rtf /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Resources/en.lproj36"3CE53088-25CA-437E-BD26-4AD54DF5D572-
+
+CLd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/MacOS/FullscreenWriter normal x86_64
+s335265840.735255
+e335265841.008571
+r1
+xLd
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/MacOS/FullscreenWriter
+xnormal
+xx86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Link /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/MacOS/FullscreenWriter4355bc30c0fbb341^27330231c0fbb341^---0#0#0#--979"Ld DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/MacOS/FullscreenWriter normal x86_64    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /DeveloperBeta/usr/bin/clang -arch x86_64 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -L/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -filelist /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/Objects-normal/x86_64/FullscreenWriter.LinkFileList -mmacosx-version-min=10.7 -fobjc-arc -framework WebKit -framework Cocoa -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/MacOS/FullscreenWriter36"F0994E7E-B967-48A8-8F00-A5D420B0DE76-
+
+CProcessInfoPlistFile /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Info.plist FullscreenWriter/FullscreenWriter-Info.plist
+s335265837.821908
+e335265837.835776
+r1
+xProcessInfoPlistFile
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Info.plist
+xFullscreenWriter/FullscreenWriter-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Process FullscreenWriter/FullscreenWriter-Info.pliste50dd42dc0fbb341^fdf6d52dc0fbb341^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriter-Info.plist0000000000000000^635"ProcessInfoPlistFile DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Info.plist FullscreenWriter/FullscreenWriter-Info.plist    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    builtin-infoPlistUtility FullscreenWriter/FullscreenWriter-Info.plist -genpkginfo /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app/Contents/Info.plist36"056F8383-3513-4931-A124-BD12CF6FBAFA-
+
+CProcessPCH /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-aqialevdbgqidndlsibepldrhhun/FullscreenWriter-Prefix.pch.pth FullscreenWriter/FullscreenWriter-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s335265837.845300
+e335265838.006496
+r1
+xProcessPCH
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-aqialevdbgqidndlsibepldrhhun/FullscreenWriter-Prefix.pch.pth
+xFullscreenWriter/FullscreenWriter-Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile FullscreenWriter/FullscreenWriter-Prefix.pch7288d82dc0fbb341^54ad012ec0fbb341^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriter-Prefix.pch0000000000000000^2724"ProcessPCH DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-aqialevdbgqidndlsibepldrhhun/FullscreenWriter-Prefix.pch.pth FullscreenWriter/FullscreenWriter-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriter-Prefix.pch -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-aqialevdbgqidndlsibepldrhhun/FullscreenWriter-Prefix.pch.pth -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-aqialevdbgqidndlsibepldrhhun/FullscreenWriter-Prefix.pch.d36"CA0240C0-8DC7-4C17-9E20-EA2F6AE971B5-
+
+CProcessPCH /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch.pth FullscreenWriter/FullscreenWriter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s335265837.844691
+e335265839.871762
+r1
+xProcessPCH
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch.pth
+xFullscreenWriter/FullscreenWriter-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile FullscreenWriter/FullscreenWriter-Prefix.pch7e72d82dc0fbb341^193ddf2fc0fbb341^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriter-Prefix.pch0000000000000000^2918"ProcessPCH DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch.pth FullscreenWriter/FullscreenWriter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    setenv LANG en_US.US-ASCII    /DeveloperBeta/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /DeveloperBeta/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-generated-files.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-own-target-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-all-target-headers.hmap -iquote /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/FullscreenWriter-project-headers.hmap -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources/x86_64 -I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Intermediates/FullscreenWriter.build/Debug/FullscreenWriter.build/DerivedSources -F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriter-Prefix.pch -o /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch.pth -MMD -MT dependencies -MF /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/PrecompiledHeaders/FullscreenWriter-Prefix-fujlruszbgfwykgoffhschkofoqe/FullscreenWriter-Prefix.pch.d36"A1678139-D370-4CD5-9E8D-566E005268AB-
+
+CProcessPCH /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Index/PrecompiledHeaders/FullscreenWriter-Prefix-bfeotwcdhrmhkjdlqlzndzmgrxoq_ast/FullscreenWriter-Prefix.pch.pth FullscreenWriter/FullscreenWriter-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Index/PrecompiledHeaders/FullscreenWriter-Prefix-frzwdnjokbctfqdebwrjtulndkzx_ast/FullscreenWriter-Prefix.pch.pth FullscreenWriter/FullscreenWriter-Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app
+s335265842.524434
+e335265842.538813
+r1
+xTouch
+x/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Touch /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app0d548632c0fbb341^4a088a32c0fbb341^---0#0#0#--287"Touch DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app    cd /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter    /usr/bin/touch -c /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/FullscreenWriter.app36"EF5297BD-8355-44DC-9AFB-ED9645C7C197-
+

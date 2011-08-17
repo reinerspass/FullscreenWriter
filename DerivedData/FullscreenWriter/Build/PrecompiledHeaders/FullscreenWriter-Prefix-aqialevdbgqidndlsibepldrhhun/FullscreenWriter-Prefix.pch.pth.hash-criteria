@@ -1,0 +1,24 @@
+Contents of /Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/FullscreenWriter/FullscreenWriter-Prefix.pch
+3.0 (tags/Apple/clang-211.3) (based on LLVM 3.0svn)
+-x
+c
+-arch
+x86_64
+-fmessage-length=0
+-fdiagnostics-print-source-range-info
+-fdiagnostics-show-category=id
+-fdiagnostics-parseable-fixits
+-std=gnu99
+-fpascal-strings
+-O0
+-DDEBUG=1
+-isysroot
+/DeveloperBeta/SDKs/MacOSX10.7.sdk
+-fasm-blocks
+-mmacosx-version-min=10.7
+-gdwarf-2
+-iquote
+-iquote
+-I/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug/include
+-F/Volumes/Drehbank/Markus/Work/Sources/FullscreenWriter/DerivedData/FullscreenWriter/Build/Products/Debug
+SDK_PRODUCT_BUILD_VERSION=11A511a
