@@ -32,6 +32,8 @@
 		289EA93913EEDBAE00599F19 /* NoiseBg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 289EA93813EEDBAE00599F19 /* NoiseBg1.png */; };
 		289EA94113EEDEFE00599F19 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 289EA94013EEDEFE00599F19 /* AppIcon.png */; };
 		289EA94513EEE0CC00599F19 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 289EA94413EEE0CC00599F19 /* AppIcon.icns */; };
+		28A8BAFA13FC1F8100CA7A2C /* MarkdownPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A8BAF913FC1F8100CA7A2C /* MarkdownPreviewController.m */; };
+		28A8BAFD13FC1FA200CA7A2C /* MarkdownPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28A8BAFC13FC1FA200CA7A2C /* MarkdownPreview.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,9 @@
 		289EA93813EEDBAE00599F19 /* NoiseBg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoiseBg1.png; sourceTree = "<group>"; };
 		289EA94013EEDEFE00599F19 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 		289EA94413EEE0CC00599F19 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		28A8BAF813FC1F8100CA7A2C /* MarkdownPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownPreviewController.h; sourceTree = "<group>"; };
+		28A8BAF913FC1F8100CA7A2C /* MarkdownPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownPreviewController.m; sourceTree = "<group>"; };
+		28A8BAFC13FC1FA200CA7A2C /* MarkdownPreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkdownPreview.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +169,9 @@
 				289C9BF013F9058A00F7D66A /* FWTextView.m */,
 				289C9C0313F93AD700F7D66A /* LastPathComponentTransformer.h */,
 				289C9C0413F93AD700F7D66A /* LastPathComponentTransformer.m */,
+				28A8BAF813FC1F8100CA7A2C /* MarkdownPreviewController.h */,
+				28A8BAF913FC1F8100CA7A2C /* MarkdownPreviewController.m */,
+				28A8BAFC13FC1FA200CA7A2C /* MarkdownPreview.xib */,
 			);
 			path = FullscreenWriter;
 			sourceTree = "<group>";
@@ -249,6 +257,7 @@
 				289C9BFE13F9205200F7D66A /* ShaddowTop.png in Resources */,
 				289C9C0113F9340700F7D66A /* ButtonDocumentsInactive.png in Resources */,
 				289C9C0213F9340700F7D66A /* ButtonSettingsInactive.png in Resources */,
+				28A8BAFD13FC1FA200CA7A2C /* MarkdownPreview.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +279,7 @@
 				285C0B9013F556DE00E25AFB /* renderers.c in Sources */,
 				289C9BF113F9058A00F7D66A /* FWTextView.m in Sources */,
 				289C9C0513F93AD800F7D66A /* LastPathComponentTransformer.m in Sources */,
+				28A8BAFA13FC1F8100CA7A2C /* MarkdownPreviewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

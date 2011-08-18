@@ -85,6 +85,7 @@
     [self configureMainTextView];
     [self setCountingLabel];
 
+    markdownPreviewController = [[MarkdownPreviewController alloc] initWithWindowNibName:@"MarkdownPreview"];
 }
 
 -(void)configureMainTextView
@@ -130,9 +131,10 @@
 
 -(IBAction)setMarkdown:(id)sender{
     NSString *rawText = [[mainTextView attributedString] string];
-    NSString *markdown = [MarkdownWrapper convertToHtml:rawText];
-    [[markdownView mainFrame] loadHTMLString:markdown baseURL:nil];
-    [markdownWindow makeKeyAndOrderFront:self];
+    //NSString *markdown = [MarkdownWrapper convertToHtml:rawText];
+    //[[markdownView mainFrame] loadHTMLString:markdown baseURL:nil];
+    //[markdownWindow makeKeyAndOrderFront:self];
+    [markdownPreviewController renderMarkdownToHtml:rawText];
 }
 
 - (void)setCountingLabel

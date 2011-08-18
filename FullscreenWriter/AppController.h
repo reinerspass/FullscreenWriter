@@ -11,6 +11,7 @@
 #import "Webkit/WebFrame.h"
 #import "MarkdownWrapper.h"
 #import "FWTextView.h"
+#import "MarkdownPreviewController.h"
 
 #define UIColorFromRGB(rgbValue) [NSColor colorWithDeviceRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
@@ -41,6 +42,8 @@
     
     float offsetY;
     float offsetX;
+    
+    MarkdownPreviewController __strong *markdownPreviewController;
 }
 
 - (IBAction)setMarkdown:(id)sender;
