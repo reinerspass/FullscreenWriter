@@ -19,10 +19,8 @@
 @interface AppController  : NSObject <NSWindowDelegate>
 {
     IBOutlet NSWindow *mainWindow;
-    IBOutlet NSWindow *documentsWindow;
     IBOutlet FWTextView *mainTextView;
     IBOutlet WebView *markdownView;
-    IBOutlet NSWindow *markdownWindow;
     IBOutlet NSTextField *headlineView;
     NSPopover *documentsPopover;
     NSPopover *settingsPopover;

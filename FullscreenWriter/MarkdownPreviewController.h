@@ -13,11 +13,9 @@
 @interface MarkdownPreviewController : NSWindowController
 {
     WebView *markdownWebView;
-    NSWindow *markdownWindow;
 }
 
 -(void)renderMarkdownToHtml:(NSString*)markdown;
 
-@property (strong) IBOutlet NSWindow *markdownWindow;
 @property (strong) IBOutlet WebView *markdownWebView;
 @end

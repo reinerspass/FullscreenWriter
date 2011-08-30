@@ -124,18 +124,6 @@
     [mainTextView setRichText:NO];
 }
 
-- (IBAction)toggleFullscreen:(id)sender {
-    [mainWindow toggleFullScreen:self];
-}
-
-
--(IBAction)setMarkdown:(id)sender{
-    NSString *rawText = [[mainTextView attributedString] string];
-    //NSString *markdown = [MarkdownWrapper convertToHtml:rawText];
-    //[[markdownView mainFrame] loadHTMLString:markdown baseURL:nil];
-    //[markdownWindow makeKeyAndOrderFront:self];
-    [markdownPreviewController renderMarkdownToHtml:rawText];
-}
 
 - (void)setCountingLabel
 {
@@ -172,7 +160,6 @@
 #pragma mark delegate Method for Documents Table View
 - (void)tableViewSelectionDidChange:(NSNotification *)aNotification
 {
-    //[self closePopovers];
     [self setCountingLabel];
     //NSLog(@"selected index %d",(int)[documentsTableView selectedRow]);
 }
@@ -193,6 +180,18 @@
 }
 
 #pragma mark - Inteface Methods
+
+- (IBAction)toggleFullscreen:(id)sender {
+    [mainWindow toggleFullScreen:self];
+}
+
+
+-(IBAction)setMarkdown:(id)sender{
+    NSString *rawText = [[mainTextView attributedString] string];
+    [markdownPreviewController renderMarkdownToHtml:rawText];
+}
+
+
 - (IBAction)showDocumentsPopover:(id)sender {
     if (![documentsPopover isShown]) {
         [documentsPopover showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMaxYEdge];

@@ -10,42 +10,15 @@
 #import "MarkdownWrapper.h"
 
 @implementation MarkdownPreviewController
-@synthesize markdownWindow;
 @synthesize markdownWebView;
 
-- (id)initWithWindow:(NSWindow *)window
-{
-    self = [super initWithWindow:window];
-    if (self) {
-        NSLog(@"init with window");
-
-    }
-    
-    return self;
-}
-
-- (id)initWithWindowNibName:(NSString *)windowNibName
-{
-    NSLog(@"initwithnibname");
-
-    self = [super initWithWindowNibName:windowNibName];
-    if (self){
-        NSLog(@"niit with nibnadme");
-    }
-}
-
-- (void)windowDidLoad
-{
-    [super windowDidLoad];
-    NSLog(@"windowdidload");
-}
 
 -(void)renderMarkdownToHtml:(NSString*)markdown{
+    [self.window makeKeyAndOrderFront:self];
     NSString *html = [MarkdownWrapper convertToHtml:markdown];
     WebFrame *frame = [markdownWebView mainFrame];
     [frame loadHTMLString:html baseURL:nil];
-    [markdownWindow makeKeyAndOrderFront:self];
-    NSLog(@"setmarkdown");
+    
 }
 
 @end
