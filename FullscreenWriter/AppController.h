@@ -12,8 +12,9 @@
 #import "MarkdownWrapper.h"
 #import "FWTextView.h"
 #import "MarkdownPreviewController.h"
+#import "ResizableView.h"
 
-#define UIColorFromRGB(rgbValue) [NSColor colorWithDeviceRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define NSColorFromRGB(rgbValue) [NSColor colorWithDeviceRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 
 @interface AppController  : NSObject <NSWindowDelegate>
@@ -22,6 +23,9 @@
     IBOutlet FWTextView *mainTextView;
     IBOutlet WebView *markdownView;
     IBOutlet NSTextField *headlineView;
+    
+    ResizableView *resizableView;
+    
     NSPopover *documentsPopover;
     NSPopover *settingsPopover;
     
@@ -42,6 +46,8 @@
     float offsetX;
     
     MarkdownPreviewController __strong *markdownPreviewController;
+    NSImageView *topShaddowImage;
+    NSImageView *bottomShaddowImage;
 }
 
 - (IBAction)setMarkdown:(id)sender;
@@ -65,4 +71,7 @@
 @property (strong) IBOutlet NSButton *settingsButton;
 @property (strong) IBOutlet NSButton *documentsButton;
 @property (strong) IBOutlet NSTableView *documentsTableView;
+@property (strong) IBOutlet ResizableView *resizableView;
+@property (strong) IBOutlet NSImageView *topShaddowImage;
+@property (strong) IBOutlet NSImageView *bottomShaddowImage;
 @end

@@ -9,6 +9,9 @@
 #import "AppController.h"
 
 @implementation AppController
+@synthesize bottomShaddowImage;
+@synthesize topShaddowImage;
+@synthesize resizableView;
 @synthesize documentsTableView;
 @synthesize documentsButton;
 @synthesize settingsButton;
@@ -30,6 +33,14 @@
         
         offsetY = 40;
         offsetX = 40;
+        
+        
+        // CLoad custom font
+        NSString *fontLocation = [[NSBundle mainBundle] pathForResource:@"Fabrica" ofType:@"otf"];
+        NSURL *fontUrl = [NSURL fileURLWithPath:fontLocation]; //KCTFontManagerScopeProcess
+        CTFontManagerRegisterFontsForURL((__bridge CFURLRef)fontUrl, kCTFontManagerScopeProcess, nil);
+        
+
 
     }
     return self;
@@ -59,8 +70,6 @@
             [self insertObject:tmp inTextFilesAtIndex:textFiles.count];
         }
     }
-
-    
 }
 
 -(void)setInitialUserDefaults 
@@ -69,7 +78,7 @@
     NSMutableDictionary* initialDefaults = [[NSMutableDictionary alloc] init];
     [initialDefaults setObject:[NSHomeDirectory() stringByAppendingPathComponent:@"Documents/PlainText"] 
                         forKey:@"filesFolder"];
-    [initialDefaults setObject:@"Georgia" 
+    [initialDefaults setObject:@"Fabrica" 
                         forKey:@"FontType"];
     [initialDefaults setObject:[NSNumber numberWithInt:14] 
                         forKey:@"FontSize"];
@@ -81,7 +90,7 @@
 - (void)awakeFromNib
 {    
     [[headlineView cell] setBackgroundStyle:NSBackgroundStyleLight];
-    [headlineView setTextColor:UIColorFromRGB(0x3f3c3a)];
+    [headlineView setTextColor:NSColorFromRGB(0x3f3c3a)];
     [self configureMainTextView];
     [self setCountingLabel];
 
@@ -100,7 +109,7 @@
     
     NSDictionary *attributes = [[NSDictionary alloc] initWithObjectsAndKeys:
                                 [NSFont fontWithName:font size:size], NSFontAttributeName, 
-                                UIColorFromRGB(0x3f3c3a), NSForegroundColorAttributeName, 
+                                NSColorFromRGB(0x3f3c3a), NSForegroundColorAttributeName, 
                                 //paragraphStyle,NSParagraphStyleAttributeName,
                                 nil];
     
@@ -111,10 +120,10 @@
     [mainWindow setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"NoiseBg1.png"]]];
     [mainTextView setFont:[NSFont fontWithName:[userDefaults objectForKey:@"FontType"] size:[[userDefaults objectForKey:@"FontSize"] intValue]]];
     
-    [mainTextView setInsertionPointColor:UIColorFromRGB(0x1db2dd)];
+    [mainTextView setInsertionPointColor:NSColorFromRGB(0x1db2dd)];
     [mainTextView setSelectedTextAttributes:
      [NSDictionary dictionaryWithObjectsAndKeys:
-      UIColorFromRGB(0x1db2dd), NSBackgroundColorAttributeName,
+      NSColorFromRGB(0x1db2dd), NSBackgroundColorAttributeName,
       [NSColor whiteColor], NSForegroundColorAttributeName,
       nil]];
     
@@ -179,6 +188,22 @@
     */
 }
 
+#pragma mark Main window delegate
+
+- (NSRect)windowWillUseStandardFrame:(NSWindow *)window defaultFrame:(NSRect)newFrame
+{
+    NSLog(@"window will use standard frame");
+    
+    float width = resizableView.frame.size.width;
+    float heigt = [NSScreen mainScreen].frame.size.height;
+    float x = [NSScreen mainScreen].frame.size.width/2 - resizableView.frame.size.width/2;
+    
+    NSRect newWindowSize = NSMakeRect(x, 0, width, heigt);
+    
+    
+    return newWindowSize;
+}
+
 #pragma mark - Inteface Methods
 
 - (IBAction)toggleFullscreen:(id)sender {
@@ -226,6 +251,9 @@
     [settingsPopover close];
     [documentsButton setState:0];
     [settingsButton setState:0];
+}
+- (IBAction)changeDocWidthSlider:(id)sender {
+    [resizableView setWidth:[sender floatValue]];
 }
 
 @end

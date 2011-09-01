@@ -34,6 +34,13 @@
 		289EA94513EEE0CC00599F19 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 289EA94413EEE0CC00599F19 /* AppIcon.icns */; };
 		28A8BAFA13FC1F8100CA7A2C /* MarkdownPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A8BAF913FC1F8100CA7A2C /* MarkdownPreviewController.m */; };
 		28A8BAFD13FC1FA200CA7A2C /* MarkdownPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28A8BAFC13FC1FA200CA7A2C /* MarkdownPreview.xib */; };
+		B39B1E34140E9B540078CE3F /* ShaddowDownFill.png in Resources */ = {isa = PBXBuildFile; fileRef = B39B1E31140E9B540078CE3F /* ShaddowDownFill.png */; };
+		B39B1E35140E9B540078CE3F /* ShaddowDownLeftCap.png in Resources */ = {isa = PBXBuildFile; fileRef = B39B1E32140E9B540078CE3F /* ShaddowDownLeftCap.png */; };
+		B39B1E36140E9B540078CE3F /* ShaddowDownRightCap.png in Resources */ = {isa = PBXBuildFile; fileRef = B39B1E33140E9B540078CE3F /* ShaddowDownRightCap.png */; };
+		B39B1E3A140E9DF40078CE3F /* ScrollViewWithShaddows.m in Sources */ = {isa = PBXBuildFile; fileRef = B39B1E39140E9DF40078CE3F /* ScrollViewWithShaddows.m */; };
+		B39D2DE6140F96F900F7B1F0 /* FSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B39D2DE5140F96F900F7B1F0 /* FSWindow.m */; };
+		B39D2DE9140FB06000F7B1F0 /* Fabrica.otf in Resources */ = {isa = PBXBuildFile; fileRef = B39D2DE8140FB06000F7B1F0 /* Fabrica.otf */; };
+		B3A87EFC140D440F00E754B6 /* ResizableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A87EFB140D440F00E754B6 /* ResizableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +88,16 @@
 		28A8BAF813FC1F8100CA7A2C /* MarkdownPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownPreviewController.h; sourceTree = "<group>"; };
 		28A8BAF913FC1F8100CA7A2C /* MarkdownPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownPreviewController.m; sourceTree = "<group>"; };
 		28A8BAFC13FC1FA200CA7A2C /* MarkdownPreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkdownPreview.xib; sourceTree = "<group>"; };
+		B39B1E31140E9B540078CE3F /* ShaddowDownFill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShaddowDownFill.png; path = Assets/ShaddowDownFill.png; sourceTree = "<group>"; };
+		B39B1E32140E9B540078CE3F /* ShaddowDownLeftCap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShaddowDownLeftCap.png; path = Assets/ShaddowDownLeftCap.png; sourceTree = "<group>"; };
+		B39B1E33140E9B540078CE3F /* ShaddowDownRightCap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShaddowDownRightCap.png; path = Assets/ShaddowDownRightCap.png; sourceTree = "<group>"; };
+		B39B1E38140E9DF30078CE3F /* ScrollViewWithShaddows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewWithShaddows.h; sourceTree = "<group>"; };
+		B39B1E39140E9DF40078CE3F /* ScrollViewWithShaddows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewWithShaddows.m; sourceTree = "<group>"; };
+		B39D2DE4140F96F900F7B1F0 /* FSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWindow.h; sourceTree = "<group>"; };
+		B39D2DE5140F96F900F7B1F0 /* FSWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWindow.m; sourceTree = "<group>"; };
+		B39D2DE8140FB06000F7B1F0 /* Fabrica.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fabrica.otf; sourceTree = "<group>"; };
+		B3A87EFA140D440F00E754B6 /* ResizableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizableView.h; sourceTree = "<group>"; };
+		B3A87EFB140D440F00E754B6 /* ResizableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +175,8 @@
 				289EA92A13EECA6700599F19 /* FullscreenWriterAppDelegate.h */,
 				289EA92B13EECA6700599F19 /* FullscreenWriterAppDelegate.m */,
 				289EA92D13EECA6800599F19 /* MainMenu.xib */,
+				B3A87EFA140D440F00E754B6 /* ResizableView.h */,
+				B3A87EFB140D440F00E754B6 /* ResizableView.m */,
 				289EA91F13EECA6700599F19 /* Supporting Files */,
 				289EA93513EECA8100599F19 /* AppController.h */,
 				289EA93613EECA8100599F19 /* AppController.m */,
@@ -172,6 +191,10 @@
 				28A8BAF813FC1F8100CA7A2C /* MarkdownPreviewController.h */,
 				28A8BAF913FC1F8100CA7A2C /* MarkdownPreviewController.m */,
 				28A8BAFC13FC1FA200CA7A2C /* MarkdownPreview.xib */,
+				B39B1E38140E9DF30078CE3F /* ScrollViewWithShaddows.h */,
+				B39B1E39140E9DF40078CE3F /* ScrollViewWithShaddows.m */,
+				B39D2DE4140F96F900F7B1F0 /* FSWindow.h */,
+				B39D2DE5140F96F900F7B1F0 /* FSWindow.m */,
 			);
 			path = FullscreenWriter;
 			sourceTree = "<group>";
@@ -179,6 +202,10 @@
 		289EA91F13EECA6700599F19 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B39D2DE8140FB06000F7B1F0 /* Fabrica.otf */,
+				B39B1E31140E9B540078CE3F /* ShaddowDownFill.png */,
+				B39B1E32140E9B540078CE3F /* ShaddowDownLeftCap.png */,
+				B39B1E33140E9B540078CE3F /* ShaddowDownRightCap.png */,
 				289C9BFF13F9340700F7D66A /* ButtonDocumentsInactive.png */,
 				289C9C0013F9340700F7D66A /* ButtonSettingsInactive.png */,
 				289EA93813EEDBAE00599F19 /* NoiseBg1.png */,
@@ -258,6 +285,10 @@
 				289C9C0113F9340700F7D66A /* ButtonDocumentsInactive.png in Resources */,
 				289C9C0213F9340700F7D66A /* ButtonSettingsInactive.png in Resources */,
 				28A8BAFD13FC1FA200CA7A2C /* MarkdownPreview.xib in Resources */,
+				B39B1E34140E9B540078CE3F /* ShaddowDownFill.png in Resources */,
+				B39B1E35140E9B540078CE3F /* ShaddowDownLeftCap.png in Resources */,
+				B39B1E36140E9B540078CE3F /* ShaddowDownRightCap.png in Resources */,
+				B39D2DE9140FB06000F7B1F0 /* Fabrica.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +311,9 @@
 				289C9BF113F9058A00F7D66A /* FWTextView.m in Sources */,
 				289C9C0513F93AD800F7D66A /* LastPathComponentTransformer.m in Sources */,
 				28A8BAFA13FC1F8100CA7A2C /* MarkdownPreviewController.m in Sources */,
+				B3A87EFC140D440F00E754B6 /* ResizableView.m in Sources */,
+				B39B1E3A140E9DF40078CE3F /* ScrollViewWithShaddows.m in Sources */,
+				B39D2DE6140F96F900F7B1F0 /* FSWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
