@@ -22,7 +22,6 @@
 @synthesize documentsPopover;
 @synthesize textBody, textTitle;
 
-
 - (id)init
 {
     self = [super init];
@@ -39,9 +38,6 @@
         NSString *fontLocation = [[NSBundle mainBundle] pathForResource:@"Fabrica" ofType:@"otf"];
         NSURL *fontUrl = [NSURL fileURLWithPath:fontLocation]; //KCTFontManagerScopeProcess
         CTFontManagerRegisterFontsForURL((__bridge CFURLRef)fontUrl, kCTFontManagerScopeProcess, nil);
-        
-
-
     }
     return self;
 }
@@ -95,6 +91,7 @@
     [self setCountingLabel];
 
     markdownPreviewController = [[MarkdownPreviewController alloc] initWithWindowNibName:@"MarkdownPreview"];
+
 }
 
 -(void)configureMainTextView
@@ -207,6 +204,7 @@
 #pragma mark - Inteface Methods
 
 - (IBAction)toggleFullscreen:(id)sender {
+
     [mainWindow toggleFullScreen:self];
 }
 

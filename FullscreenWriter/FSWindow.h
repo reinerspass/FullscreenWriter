@@ -9,5 +9,15 @@
 #import <AppKit/AppKit.h>
 
 @interface FSWindow : NSWindow
+{
+    BOOL isFullscreen;
+    NSRect regularWindowSize;
+}
+
+@property BOOL isFullscreen;
+@property NSRect regularWindowSize;
+
+
+-(void)toggleFullScreen:(id)sender;
 
 @end
