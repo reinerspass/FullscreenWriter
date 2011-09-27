@@ -13,21 +13,24 @@
 #import "FWTextView.h"
 #import "MarkdownPreviewController.h"
 #import "ResizableView.h"
+#import "SetupWindowController.h"
+#import "FSWindow.h"
 
 #define NSColorFromRGB(rgbValue) [NSColor colorWithDeviceRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 
-@interface AppController  : NSObject <NSWindowDelegate>
+@interface AppController  : NSObject <NSWindowDelegate, SetupWindowDelegate>
 {
-    IBOutlet NSWindow *mainWindow;
+    IBOutlet FSWindow *mainWindow;
     IBOutlet FWTextView *mainTextView;
-    IBOutlet WebView *markdownView;
     IBOutlet NSTextField *headlineView;
+    
+    SetupWindowController *setupWindowController;
     
     ResizableView *resizableView;
     
-    NSPopover *documentsPopover;
-    NSPopover *settingsPopover;
+    id documentsPopover;
+    id settingsPopover;
     
     NSButton *documentsButton;
     NSButton *settingsButton;
@@ -48,6 +51,12 @@
     MarkdownPreviewController __strong *markdownPreviewController;
     NSImageView *topShaddowImage;
     NSImageView *bottomShaddowImage;
+    
+    NSWindow *settingsWindow;
+    NSWindow *documentsWindow;
+
+    __unsafe_unretained NSView *documentsView;
+    __unsafe_unretained NSView *settingsView;
 }
 
 - (IBAction)setMarkdown:(id)sender;
@@ -63,8 +72,8 @@
 @property (copy, nonatomic) NSData *textBody;
 @property (copy, nonatomic) NSString *textTitle;
 
-@property (strong) IBOutlet NSPopover *documentsPopover;
-@property (strong) IBOutlet NSPopover *settingsPopover;
+@property (strong) IBOutlet id documentsPopover;
+@property (strong) IBOutlet id settingsPopover;
 @property (strong) IBOutlet NSPopUpButton *DocumentsDirectoryPopUpButton;
 @property (strong) IBOutlet NSScrollView *mainScrollView;
 @property (strong) IBOutlet NSTextField *wordCountingLabel;
@@ -74,4 +83,6 @@
 @property (strong) IBOutlet ResizableView *resizableView;
 @property (strong) IBOutlet NSImageView *topShaddowImage;
 @property (strong) IBOutlet NSImageView *bottomShaddowImage;
+@property (unsafe_unretained) IBOutlet NSView *settingsView;
+@property (unsafe_unretained) IBOutlet NSView *documentsView;
 @end
