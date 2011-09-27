@@ -42,14 +42,18 @@
 
 -(id) initWithContentRect:(NSRect)contentRect styleMask:(NSUInteger)aStyle backing:(NSBackingStoreType)bufferingType defer:(BOOL)flag
 {
+    
+    
+    
     if (self = [super initWithContentRect: contentRect
-                                styleMask: aStyle
+                                styleMask: aStyle //NSBorderlessWindowMask | NSResizableWindowMask | NSBorderlessWindowMask
                                   backing: bufferingType
                                     defer: flag])
     {
 
         regularWindowSize = contentRect;
         isFullscreen = NO;
+        //NSTrackingArea *trackingArea = [
     }
     
     return self;

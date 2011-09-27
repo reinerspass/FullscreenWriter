@@ -9,6 +9,8 @@
 #import "AppController.h"
 
 @implementation AppController
+@synthesize settingsView;
+@synthesize documentsView;
 @synthesize bottomShaddowImage;
 @synthesize topShaddowImage;
 @synthesize resizableView;
@@ -28,11 +30,22 @@
     if (self) {
         userDefaults = [NSUserDefaults standardUserDefaults];
         [self setInitialUserDefaults];
+        
+        
+
+        if ([[userDefaults objectForKey:@"firstLaunch"] boolValue]) {
+            setupWindowController = [[SetupWindowController alloc] initWithWindowNibName:@"FirstLaunchSetup"];
+            setupWindowController.delegate = self;
+            [setupWindowController.window makeKeyAndOrderFront:NSApp];
+
+            //NSLog(@"FIRST LAUNCH!!!");
+            [userDefaults setObject:[NSNumber numberWithBool:NO] forKey:@"firstLaunch"];
+        }
+        
         [self readFiles];
         
         offsetY = 40;
         offsetX = 40;
-        
         
         // CLoad custom font
         NSString *fontLocation = [[NSBundle mainBundle] pathForResource:@"Fabrica" ofType:@"otf"];
@@ -72,12 +85,13 @@
 {
     /* Set initial User Defaults to NSUserDefaults */
     NSMutableDictionary* initialDefaults = [[NSMutableDictionary alloc] init];
-    [initialDefaults setObject:[NSHomeDirectory() stringByAppendingPathComponent:@"Documents/PlainText"] 
+    [initialDefaults setObject:[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] 
                         forKey:@"filesFolder"];
     [initialDefaults setObject:@"Fabrica" 
                         forKey:@"FontType"];
     [initialDefaults setObject:[NSNumber numberWithInt:14] 
                         forKey:@"FontSize"];
+    [initialDefaults setObject:[NSNumber numberWithBool:YES] forKey:@"firstLaunch"];
     [userDefaults registerDefaults:initialDefaults];
 }
 
@@ -91,7 +105,6 @@
     [self setCountingLabel];
 
     markdownPreviewController = [[MarkdownPreviewController alloc] initWithWindowNibName:@"MarkdownPreview"];
-
 }
 
 -(void)configureMainTextView
@@ -216,19 +229,95 @@
 
 
 - (IBAction)showDocumentsPopover:(id)sender {
-    if (![documentsPopover isShown]) {
-        [documentsPopover showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMaxYEdge];
-    } else {
-        [self closePopovers];
+    
+    // Check for current os version if lion use popovers
+    if ([[[NSProcessInfo processInfo] operatingSystemVersionString] hasPrefix:@"Version 10.7"]) {
+        if (documentsPopover == nil) {
+            documentsPopover = [[NSPopover alloc] init];
+            NSViewController *viewController = [[NSViewController alloc] init];
+            [viewController setView:documentsView];
+            [documentsPopover setContentViewController:viewController];
+        }
+        
+        if (![documentsPopover isShown]) {
+            [documentsPopover showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMaxYEdge];
+        } else {
+            [self closePopovers];
+            [documentsPopover close];
+        }
+        return;
     }
+
+    
+    float xPosition = mainWindow.frame.origin.x + mainWindow.frame.size.width;
+    float yPosition = mainWindow.frame.origin.y + mainWindow.frame.size.height/2 - documentsView.frame.size.height / 2;
+    
+    if (documentsWindow == nil) {
+        documentsWindow = [[NSWindow alloc] initWithContentRect:NSMakeRect(xPosition, yPosition, documentsView.frame.size.width, documentsView.frame.size.height) 
+                                                     styleMask:NSTitledWindowMask
+                                                       backing:NSBackingStoreBuffered 
+                                                         defer:NO];
+        
+        [documentsWindow setContentView:documentsView];
+    }
+    
+    if ([documentsWindow isVisible]) {
+        [documentsWindow orderOut:NSApp];
+    }
+    
+    else {
+        [documentsWindow makeKeyAndOrderFront:NSApp];
+    }
+    
+    return;
+
+    
 }
 
 - (IBAction)showSettingsPopover:(id)sender {
-    if (![settingsPopover isShown]) {
-        [settingsPopover showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMaxYEdge];
-    } else {
-        [self closePopovers];
-    }    
+    
+    // Check for current os version if lion use popovers
+    if ([[[NSProcessInfo processInfo] operatingSystemVersionString] hasPrefix:@"Version 10.7"]) {
+
+        if (settingsPopover == nil) {
+            settingsPopover = [[NSPopover alloc] init];
+            NSViewController *viewController = [[NSViewController alloc] init];
+            [viewController setView:settingsView];
+            [settingsPopover setContentViewController:viewController];
+        }
+        
+        if (![settingsPopover isShown]) {
+            [settingsPopover showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMaxYEdge];
+        } else {
+            [self closePopovers];
+            [settingsPopover close];
+        }    
+    
+        return;
+    }
+    
+    
+    // else use window
+    
+    // calculate new window position
+    float xPosition = mainWindow.frame.origin.x + mainWindow.frame.size.width;
+    float yPosition = mainWindow.frame.origin.y + mainWindow.frame.size.height/2 - documentsView.frame.size.height / 2;
+    // create new window if needed
+    if (settingsWindow == nil) {
+        settingsWindow = [[NSWindow alloc] initWithContentRect:NSMakeRect(xPosition, yPosition, settingsView.frame.size.width, settingsView.frame.size.height) 
+                                                     styleMask:NSTitledWindowMask
+                                                       backing:NSBackingStoreBuffered 
+                                                         defer:NO];
+        [settingsWindow setContentView:settingsView];
+    }
+    // show hide window
+    if ([settingsWindow isVisible]) {
+        [settingsWindow orderOut:NSApp];
+    }
+    else {
+        [settingsWindow makeKeyAndOrderFront:NSApp];
+    }
+    return;
 }
 
 - (IBAction)chooseDocumentsFolder:(id)sender {
@@ -245,13 +334,22 @@
 }
 
 - (void)closePopovers{
-    [documentsPopover close];
-    [settingsPopover close];
-    [documentsButton setState:0];
-    [settingsButton setState:0];
+    //[documentsPopover close];
+    //[settingsPopover close];
+    //[documentsButton setState:0];
+    //[settingsButton setState:0];
 }
+
 - (IBAction)changeDocWidthSlider:(id)sender {
     [resizableView setWidth:[sender floatValue]];
+}
+
+#pragma mark - SetupWindow Delegate
+
+-(void)updateUI
+{
+    NSLog(@"UPDATE UI CALLED");
+    [self readFiles];
 }
 
 @end
