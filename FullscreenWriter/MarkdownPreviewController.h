@@ -13,6 +13,7 @@
 @interface MarkdownPreviewController : NSWindowController
 {
     WebView *markdownWebView;
+    NSString *htmlCode;
 }
 
 -(void)renderMarkdownToHtml:(NSString*)markdown;

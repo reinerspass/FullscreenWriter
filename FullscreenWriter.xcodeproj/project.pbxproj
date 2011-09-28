@@ -34,6 +34,7 @@
 		289EA94513EEE0CC00599F19 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 289EA94413EEE0CC00599F19 /* AppIcon.icns */; };
 		28A8BAFA13FC1F8100CA7A2C /* MarkdownPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A8BAF913FC1F8100CA7A2C /* MarkdownPreviewController.m */; };
 		28A8BAFD13FC1FA200CA7A2C /* MarkdownPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28A8BAFC13FC1FA200CA7A2C /* MarkdownPreview.xib */; };
+		B304D84D1433175900990047 /* FWGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B304D84C1433175900990047 /* FWGradientView.m */; };
 		B349F34F142B7FD60037814A /* FirstLaunchSetup.xib in Resources */ = {isa = PBXBuildFile; fileRef = B349F34E142B7FD50037814A /* FirstLaunchSetup.xib */; };
 		B3859118142DF40500EF94DA /* SetupWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3859117142DF40500EF94DA /* SetupWindowController.m */; };
 		B39B1E34140E9B540078CE3F /* ShaddowDownFill.png in Resources */ = {isa = PBXBuildFile; fileRef = B39B1E31140E9B540078CE3F /* ShaddowDownFill.png */; };
@@ -90,6 +91,8 @@
 		28A8BAF813FC1F8100CA7A2C /* MarkdownPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownPreviewController.h; sourceTree = "<group>"; };
 		28A8BAF913FC1F8100CA7A2C /* MarkdownPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownPreviewController.m; sourceTree = "<group>"; };
 		28A8BAFC13FC1FA200CA7A2C /* MarkdownPreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkdownPreview.xib; sourceTree = "<group>"; };
+		B304D84B1433175900990047 /* FWGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWGradientView.h; sourceTree = "<group>"; };
+		B304D84C1433175900990047 /* FWGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWGradientView.m; sourceTree = "<group>"; };
 		B349F34E142B7FD50037814A /* FirstLaunchSetup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstLaunchSetup.xib; sourceTree = "<group>"; };
 		B3859116142DF40400EF94DA /* SetupWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupWindowController.h; sourceTree = "<group>"; };
 		B3859117142DF40500EF94DA /* SetupWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupWindowController.m; sourceTree = "<group>"; };
@@ -203,6 +206,8 @@
 				B349F34E142B7FD50037814A /* FirstLaunchSetup.xib */,
 				B3859116142DF40400EF94DA /* SetupWindowController.h */,
 				B3859117142DF40500EF94DA /* SetupWindowController.m */,
+				B304D84B1433175900990047 /* FWGradientView.h */,
+				B304D84C1433175900990047 /* FWGradientView.m */,
 			);
 			path = FullscreenWriter;
 			sourceTree = "<group>";
@@ -324,6 +329,7 @@
 				B39B1E3A140E9DF40078CE3F /* ScrollViewWithShaddows.m in Sources */,
 				B39D2DE6140F96F900F7B1F0 /* FSWindow.m in Sources */,
 				B3859118142DF40500EF94DA /* SetupWindowController.m in Sources */,
+				B304D84D1433175900990047 /* FWGradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
