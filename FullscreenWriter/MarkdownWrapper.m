@@ -46,29 +46,25 @@
 
 +(NSString*)embedHtml:(NSString*)html
 {
-    NSString *pre = @"<html>"
+    
+    NSString *css = [NSString stringWithContentsOfURL:[[NSBundle mainBundle] URLForResource:@"markdown_default" withExtension:@"css"] encoding:NSUTF8StringEncoding error:nil];
+    
+    NSString *head_1 = @"<html>"
     "<head>"
-    "<style>"
-    "* {"
-	"font: \"Helvetica Neue\", sans-serif;"
-	"margin:20px auto;"
-	"width:600px;"
-	"color:#333;"
-    "}"
-    "h1, h2, h3, h4, h5 {"
-        "border-bottom: 1px solid black;"
-	"display: block;"
-	"color:#111;"
-    "}"
-    "p {font-size:14px}"
-    "</style>"
+    "<style>";
+
+    NSString *head_2 = @"</style>"
     "</head>"
     "<body>";
+
     
     NSString *post = @"</body>"
     "</html>";
     
-    return [[pre stringByAppendingString:html] stringByAppendingString:post];
+    
+    return [NSString stringWithFormat:@"%@%@%@%@%@", head_1, css, head_2, html, post];
+    
+    //return [[pre stringByAppendingString:html] stringByAppendingString:post];
 }
 
 

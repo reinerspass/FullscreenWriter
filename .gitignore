@@ -1,4 +1,6 @@
 DerivedData/
 *.psd
+*.ai
 xcuserdata
-xcuserstate
+xcuserstat
+*xcuserdata*e

@@ -10,6 +10,7 @@
 
 @implementation FWTextView
 
+
 - (void)drawInsertionPointInRect:(NSRect)aRect
                            color:(NSColor *)aColor turnedOn:(BOOL)flag
 {

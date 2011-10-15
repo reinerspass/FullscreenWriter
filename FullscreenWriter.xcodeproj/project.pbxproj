@@ -35,6 +35,7 @@
 		28A8BAFA13FC1F8100CA7A2C /* MarkdownPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A8BAF913FC1F8100CA7A2C /* MarkdownPreviewController.m */; };
 		28A8BAFD13FC1FA200CA7A2C /* MarkdownPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28A8BAFC13FC1FA200CA7A2C /* MarkdownPreview.xib */; };
 		B304D84D1433175900990047 /* FWGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B304D84C1433175900990047 /* FWGradientView.m */; };
+		B304D8501433232F00990047 /* markdown_default.css in Resources */ = {isa = PBXBuildFile; fileRef = B304D84F1433232E00990047 /* markdown_default.css */; };
 		B349F34F142B7FD60037814A /* FirstLaunchSetup.xib in Resources */ = {isa = PBXBuildFile; fileRef = B349F34E142B7FD50037814A /* FirstLaunchSetup.xib */; };
 		B3859118142DF40500EF94DA /* SetupWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3859117142DF40500EF94DA /* SetupWindowController.m */; };
 		B39B1E34140E9B540078CE3F /* ShaddowDownFill.png in Resources */ = {isa = PBXBuildFile; fileRef = B39B1E31140E9B540078CE3F /* ShaddowDownFill.png */; };
@@ -93,6 +94,7 @@
 		28A8BAFC13FC1FA200CA7A2C /* MarkdownPreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkdownPreview.xib; sourceTree = "<group>"; };
 		B304D84B1433175900990047 /* FWGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWGradientView.h; sourceTree = "<group>"; };
 		B304D84C1433175900990047 /* FWGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWGradientView.m; sourceTree = "<group>"; };
+		B304D84F1433232E00990047 /* markdown_default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = markdown_default.css; sourceTree = "<group>"; };
 		B349F34E142B7FD50037814A /* FirstLaunchSetup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstLaunchSetup.xib; sourceTree = "<group>"; };
 		B3859116142DF40400EF94DA /* SetupWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupWindowController.h; sourceTree = "<group>"; };
 		B3859117142DF40500EF94DA /* SetupWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupWindowController.m; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				B3859117142DF40500EF94DA /* SetupWindowController.m */,
 				B304D84B1433175900990047 /* FWGradientView.h */,
 				B304D84C1433175900990047 /* FWGradientView.m */,
+				B304D84F1433232E00990047 /* markdown_default.css */,
 			);
 			path = FullscreenWriter;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				B39B1E36140E9B540078CE3F /* ShaddowDownRightCap.png in Resources */,
 				B39D2DE9140FB06000F7B1F0 /* Fabrica.otf in Resources */,
 				B349F34F142B7FD60037814A /* FirstLaunchSetup.xib in Resources */,
+				B304D8501433232F00990047 /* markdown_default.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
